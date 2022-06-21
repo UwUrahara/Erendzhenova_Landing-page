@@ -10,6 +10,11 @@ body{
     margin: 0;
     font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
     font-weight: 400;
+    position: relative;
+}
+
+@media screen and (max-width: 1300px) {
+    body{background-color: #181818;}
 }
 
 
@@ -156,6 +161,8 @@ body{
 .header{
     height: 83px;
     background: #131313;
+    position: fixed;
+    width: 100%;
 }
 
 .header_content{
@@ -210,7 +217,7 @@ body{
     background-size: cover;
     background-position: center;
     max-height: 707px;
-    padding: 194px 0 208px;
+    padding: 277px 0 208px;
 }
 
 .banner p{
@@ -226,7 +233,7 @@ body{
 }
 
 @media screen and (max-width: 1300px) {
-    .banner{padding: 16vh 0 14vw;}
+    .banner{padding: 19vh 0 14vw;}
     .banner p{max-width: 436px; font-size: 14px; line-height: 19px;}
     .two-buttons{max-width: 436px;display: grid; grid-template-columns: repeat(auto-fit, 1fr); grid-template-rows: auto; grid-column-gap: 20px; grid-row-gap: 26px;}
 }
@@ -787,6 +794,7 @@ input[type="checkbox"]:not(:checked) + .light-cb:before{
     border-radius: 38px;
     overflow: hidden;
     margin-right: 23px;
+    margin-bottom: 22px;
 }
 
 .cli-name{
