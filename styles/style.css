@@ -500,7 +500,7 @@ input[type="checkbox"]:checked + label:after{opacity: 1;}
 
 
 @media screen and (max-width: 1300px) {
-    .online-control{margin-top: 0; background-color: #131313; padding-bottom: 88px; margin-bottom: 83px;}
+    .online-control{margin-top: 0; background-color: #131313; padding-bottom: 88px; margin-bottom: 0;}
     /* .video-frame{max-width: 90vw; margin-bottom: 28px;}
     .video-frame video{width: 90vw; max-width: 768px;} */
     .video-stub{max-width: 90vw; margin-bottom: 28px;}
@@ -582,7 +582,7 @@ input[type="checkbox"]:checked + label:after{opacity: 1;}
 }
 
 @media screen and (max-width: 1300px) {
-    .types-of-repair{margin-bottom: 55px;}
+    .types-of-repair{margin-bottom: 0; background-color: white; padding-top: 83px;}
     /* .types-of-repair .content{max-width: 90vw;} */
     .ToR-items{max-width: 768px; grid-template-columns: 1fr; grid-template-rows: 3; grid-row-gap: 80px;}
     .ToR-item{padding: 223px 0 0 0;}
@@ -751,7 +751,7 @@ input[type="checkbox"]:not(:checked) + .light-cb:before{
 
 @media screen and (max-width: 1300px) {
     .fant-content ul, .fant-gallery{display: none;}
-    .fantasies{background-image: none; padding-top: 0; height: auto;}
+    .fantasies{background-image: none; padding-top: 55px; height: auto; background-color: white;}
     .fantasies h2{margin-bottom: 29px;}
     .fantasies .town-pics{margin: 0;}
 }
